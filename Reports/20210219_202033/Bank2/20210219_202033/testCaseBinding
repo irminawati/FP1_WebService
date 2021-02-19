@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/Bank 2/TC_Register 2","testCaseId":"Test Cases/Bank 2/TC_Register 2","bindedValues":{"confirmpass":"\u0027123456Amberegul\u0027","pass":"\u0027123456Amberegul\u0027","name":"\u0027tesa\u0027","email":"\u0027rattesa.ponto@work.briagro.c.id\u0027"}}
+{"testCaseName":"Test Cases/Bank 2/TC_Binding_Login 2","testCaseId":"Test Cases/Bank 2/TC_Binding_Login 2","bindedValues":{"email2":"\u0027rezamuhammadsaput@gmail.com\u0027","password":"\u002716Amberegul\u0027","password2":"\u002716Amberegul\u0027","email":"\u0027rezamuhammadsaput@gmail.com\u0027"}}

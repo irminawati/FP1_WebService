@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Bank1" time="68.828" tests="2" failures="0" skips="0" errors="0">
+   <testsuite name="Bank1" tests="2" failures="0" errors="0" time="68.828" skips="0" timestamp="2021-02-19 20:17:33" hostname="Owner - LTSI-03-003EV" id="Test Suites/Bank1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Owner\\Downloads\\finalprojectWEB-master\\finalprojectWEB-master\\Reports\\20210219_201724\\Bank1\\20210219_201724"/>
+         <property name="logFiles" value="C:\\Users\\Owner\\Downloads\\finalprojectWEB-master\\finalprojectWEB-master\\Reports\\20210219_201724\\Bank1\\20210219_201724\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Owner - LTSI-03-003EV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.0.208"/>
+         <property name="browser" value="Chrome 88.0.4324.182"/>
+         <property name="hostAddress" value="192.168.1.15"/>
+         <property name="sessionId" value="d18af270e25a7717906d9ac00b75deee"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Bank 1/TC_Binding_Login 1" time="24.844" classname="Test Cases/Bank 1/TC_Binding_Login 1" status="PASSED">
+         <system-out><![CDATA[2021-02-19 20:17:37 - [TEST_CASE][PASSED] - Test Cases/Bank 1/TC_Binding_Login 1: Test Cases/Bank 1/TC_Binding_Login 1
+
+2021-02-19 20:17:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-19 20:17:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-19 20:17:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-19 20:17:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-19 20:17:45 - [TEST_STEP][PASSED] - navigateToUrl("http://banksystem-1.herokuapp.com/"): Navigate to 'http://banksystem-1.herokuapp.com/' successfully
+
+2021-02-19 20:17:47 - [MESSAGE][PASSED] - Navigate to 'http://banksystem-1.herokuapp.com/' successfully
+
+2021-02-19 20:17:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-19 20:17:50 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-19 20:17:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Bank 1/Page_Home - BankSystem/Login")): Object: 'Object Repository/Bank 1/Page_Home - BankSystem/Login' is clicked on
+
+2021-02-19 20:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Bank 1/Page_Home - BankSystem/Login' is clicked on
+
+2021-02-19 20:17:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Bank 1/Page_Log in - BankSystem/Email"), email): Text 'rattesakalvari@gmail.com' is set on object 'Object Repository/Bank 1/Page_Log in - BankSystem/Email'
+
+2021-02-19 20:17:52 - [MESSAGE][PASSED] - Text 'rattesakalvari@gmail.com' is set on object 'Object Repository/Bank 1/Page_Log in - BankSystem/Email'
+
+2021-02-19 20:17:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Bank 1/Page_Log in - BankSystem/Password"), password): Text '16AMberegul' is set on object 'Object Repository/Bank 1/Page_Log in - BankSystem/Password'
+
+2021-02-19 20:17:53 - [MESSAGE][PASSED] - Text '16AMberegul' is set on object 'Object Repository/Bank 1/Page_Log in - BankSystem/Password'
+
+2021-02-19 20:17:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Bank 1/Page_Log in - BankSystem/button_Log in")): Object: 'Object Repository/Bank 1/Page_Log in - BankSystem/button_Log in' is clicked on
+
+2021-02-19 20:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Bank 1/Page_Log in - BankSystem/button_Log in' is clicked on
+
+2021-02-19 20:17:55 - [TEST_STEP][PASSED] - if (verifyTextPresent("The Email field is required.", false, OPTIONAL) == true): Text 'Invalid email or password' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid email or password' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1706)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC_Binding_Login 1.run(TC_Binding_Login 1:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613740644214.run(TempTestSuite1613740644214.groovy:39)
+)
+
+2021-02-19 20:17:56 - [MESSAGE][WARNING] - Text 'The Email field is required.' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'The Email field is required.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1706)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC_Binding_Login 1.run(TC_Binding_Login 1:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613740644214.run(TempTestSuite1613740644214.groovy:39)
+)
+
+2021-02-19 20:17:56 - [MESSAGE][WARNING] - Text 'The Password field is required' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'The Password field is required' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1706)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC_Binding_Login 1.run(TC_Binding_Login 1:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613740644214.run(TempTestSuite1613740644214.groovy:39)
+)
+
+2021-02-19 20:17:57 - [MESSAGE][WARNING] - Text 'Invalid email or password' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Invalid email or password' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1706)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC_Binding_Login 1.run(TC_Binding_Login 1:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613740644214.run(TempTestSuite1613740644214.groovy:39)
+)
+
+2021-02-19 20:17:57 - [TEST_STEP][PASSED] - else if (verifyTextPresent("The Password field is required", false, OPTIONAL) == true): null
+
+2021-02-19 20:17:57 - [TEST_STEP][PASSED] - else if (verifyTextPresent("Invalid email or password", false, OPTIONAL) == true): null
+
+2021-02-19 20:17:57 - [TEST_STEP][PASSED] - else: Delayed 1 second(s)
+
+2021-02-19 20:17:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-02-19 20:17:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-19 20:17:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-02-19 20:18:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-02-19 20:18:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Bank 1/Page_Home Page - BankSystem/button_Close")): Object: 'Object Repository/Bank 1/Page_Home Page - BankSystem/button_Close' is clicked on
+
+2021-02-19 20:18:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Bank 1/Page_Home Page - BankSystem/button_Close' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bank 1/TC_Transfer" time="27.726" classname="Test Cases/Bank 1/TC_Transfer" status="PASSED">
+         <system-out><![CDATA[2021-02-19 20:18:02 - [TEST_CASE][PASSED] - Test Cases/Bank 1/TC_Transfer: Test Cases/Bank 1/TC_Transfer
+
+2021-02-19 20:18:03 - [TEST_STEP][PASSED] - click(findTestObject("Bank 1/Page_Create internal money transfer - BankSystem/Money transfers")): Object: 'Object Repository/Bank 1/Page_Create internal money transfer - BankSystem/Money transfers' is clicked on
+
+2021-02-19 20:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Bank 1/Page_Create internal money transfer - BankSystem/Money transfers' is clicked on
+
+2021-02-19 20:18:05 - [TEST_STEP][PASSED] - click(findTestObject("Bank 1/Page_Create internal money transfer - BankSystem/New Transfer")): Object: 'Object Repository/Bank 1/Page_Create internal money transfer - BankSystem/New Transfer' is clicked on
+
+2021-02-19 20:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Bank 1/Page_Create internal money transfer - BankSystem/New Transfer' is clicked on
+
+2021-02-19 20:18:06 - [TEST_STEP][PASSED] - switch (pilihTF.toString()): null
+
+2021-02-19 20:18:06 - [TEST_STEP][PASSED] - case "world":: null
+
+2021-02-19 20:18:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Bank 1/Page_Create global money transfer - BankSystem/Create new payment")): Object: 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/Create new payment' is clicked on
+
+2021-02-19 20:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/Create new payment' is clicked on
+
+2021-02-19 20:18:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Bank 1/Page_Create global money transfer - BankSystem/From acc"), "97df75e9-24c3-4033-85bb-123c554fbe18", false): All options with value '97df75e9-24c3-4033-85bb-123c554fbe18' are selected in object 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/From acc' 
+
+2021-02-19 20:18:08 - [MESSAGE][PASSED] - All options with value '97df75e9-24c3-4033-85bb-123c554fbe18' are selected in object 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/From acc' 
+
+2021-02-19 20:18:08 - [TEST_STEP][PASSED] - setText(findTestObject("Bank 1/Page_Create global money transfer - BankSystem/input_Amount"), amount): Text '100' is set on object 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/input_Amount'
+
+2021-02-19 20:18:10 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/input_Amount'
+
+2021-02-19 20:18:10 - [TEST_STEP][PASSED] - setText(findTestObject("Bank 1/Page_Create global money transfer - BankSystem/input_SwiftBank code"), swiftbank): Text 'asawas' is set on object 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/input_SwiftBank code'
+
+2021-02-19 20:18:11 - [MESSAGE][PASSED] - Text 'asawas' is set on object 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/input_SwiftBank code'
+
+2021-02-19 20:18:11 - [TEST_STEP][PASSED] - setText(findTestObject("Bank 1/Page_Create global money transfer - BankSystem/input_Name_DestinationBank"), name): Text 'reza' is set on object 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/input_Name_DestinationBank'
+
+2021-02-19 20:18:12 - [MESSAGE][PASSED] - Text 'reza' is set on object 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/input_Name_DestinationBank'
+
+2021-02-19 20:18:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Bank 1/Page_Create global money transfer - BankSystem/country"), "Malaysia", true): All options with value 'Malaysia' are selected in object 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/country'  using regular expression
+
+2021-02-19 20:18:22 - [MESSAGE][PASSED] - All options with value 'Malaysia' are selected in object 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/country'  using regular expression
+
+2021-02-19 20:18:22 - [TEST_STEP][PASSED] - setText(findTestObject("Bank 1/Page_Create global money transfer - BankSystem/Beneficiary, , s name"), beneficiary): Text 'asawqwq' is set on object 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/Beneficiary, , s name'
+
+2021-02-19 20:18:23 - [MESSAGE][PASSED] - Text 'asawqwq' is set on object 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/Beneficiary, , s name'
+
+2021-02-19 20:18:23 - [TEST_STEP][PASSED] - setText(findTestObject("Bank 1/Page_Create global money transfer - BankSystem/input_AccountIBAN"), IBAN): Text 'asaqwq' is set on object 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/input_AccountIBAN'
+
+2021-02-19 20:18:24 - [MESSAGE][PASSED] - Text 'asaqwq' is set on object 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/input_AccountIBAN'
+
+2021-02-19 20:18:24 - [TEST_STEP][PASSED] - setText(findTestObject("Bank 1/Page_Create global money transfer - BankSystem/Description"), Description): Text 'test' is set on object 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/Description'
+
+2021-02-19 20:18:25 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/Description'
+
+2021-02-19 20:18:25 - [TEST_STEP][PASSED] - click(findTestObject("Bank 1/Page_Create global money transfer - BankSystem/button_Pay")): Object: 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/button_Pay' is clicked on
+
+2021-02-19 20:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Bank 1/Page_Create global money transfer - BankSystem/button_Pay' is clicked on
+
+2021-02-19 20:18:29 - [TEST_STEP][PASSED] - break: null
+
+2021-02-19 20:18:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-19 20:18:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-19 20:17:33 - [TEST_SUITE][PASSED] - Bank1: Test Cases/Bank 1/TC_Transfer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
